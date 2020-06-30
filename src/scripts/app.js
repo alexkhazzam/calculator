@@ -17,7 +17,7 @@ class App {
     performCalculation.calculate();
   }
   notCoreOperations(id) {
-    const performAdvancedCalculations = new PerformAdvancedCalculations();
+    const performAdvancedCalculations = new PerformCalculation();
     performAdvancedCalculations.perform(id);
   }
 }
