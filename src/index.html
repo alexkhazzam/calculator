@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section id="calculator">
+      <input id="show-calc" readonly />
+      <section id="input-field">
+        <input type="text" id="show-calculation" readonly placeholder="0" />
+      </section>
+      <section id="first-row">
+        <button id="(" class="left-parentheses">(</button>
+        <button id=")" class="right-parentheses">)</button>
+        <button id="X">del</button>
+        <button id="/" class="divide">/</button>
+      </section>
+
+      <section id="second-row">
+        <button id="7" class="seven">7</button>
+        <button id="8" class="eight">8</button>
+        <button id="9" class="nine">9</button>
+        <button id="*" class="multiply">*</button>
+      </section>
+
+      <section id="third-row">
+        <button id="4" class="four">4</button>
+        <button id="5" class="five">5</button>
+        <button id="6" class="six">6</button>
+        <button id="-" class="subtract">-</button>
+      </section>
+
+      <section id="fourth-row">
+        <button id="1" class="one">1</button>
+        <button id="2" class="two">2</button>
+        <button id="3" class="three">3</button>
+        <button id="+" class="add">+</button>
+      </section>
+
+      <section id="fifth-row">
+        <button id="0" class="zero">0</button>
+        <button id="." class="decimal">.</button>
+        <button id="C">C</button>
+        <button id="=" class="equals">=</button>
+      </section>
+    </section>
+  </body>
+</html>
